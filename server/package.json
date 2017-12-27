@@ -1,0 +1,22 @@
+{
+  "name": "bookAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "pre-commit": "^1.2.2"
+  }
+}

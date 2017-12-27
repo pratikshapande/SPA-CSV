@@ -1,0 +1,38 @@
+.uploadCntnr {
+    text-align: center;
+}
+.uploadCntnr label {
+    margin: 40px;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #2784ad;
+    display: inline-block;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+}
+.inputfile + label {
+	cursor: pointer;
+}
+.chartLinksCntnr {
+    padding: 0px 30px;
+}
+.chartLinksCntnr .chartLink {
+    padding: 6px 0px;
+    text-decoration: underline;
+    color: #1486de;
+}
+.chartLinksCntnr .chartLink span {
+    cursor: pointer;
+}

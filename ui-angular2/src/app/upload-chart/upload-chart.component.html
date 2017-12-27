@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="uploadCntnr">
+    <input type="file" name="file" id="file" class="inputfile" (change)="changeListener($event)" accept=".csv"/>
+    <label for="file">Upload CSV File</label>
+  </div>
+
+  <div class="chartLinksCntnr">
+    <h2> Charts ({{dataSets.length}})</h2>
+
+    <div class="chartLink" *ngFor="let dataSet of dataSets" [routerLink]="['/charts', dataSet]">
+      Data Set - {{ dataSet }}
+    </div>
+  </div>
+</div>
